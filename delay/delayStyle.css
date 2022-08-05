@@ -4,7 +4,7 @@ body {
   padding: 0;
 }
 .draftList {
-  width: 80%;
+  width: 95%;
   margin: 20px auto;
 }
 
@@ -17,6 +17,8 @@ body {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.5s;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .draftList button:hover {
   background: #00adb5;
@@ -25,84 +27,85 @@ body {
 }
 .reqDrafts {
   width: 100%;
-  margin: 5px auto;
-  font-size: 10px;
+  font-size: 15px;
 }
 .reqDrafts h2 {
   display: inline-block;
   font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
   color: #00adb5;
-  margin-right: 20px;
+  margin-right: 25px;
   font-size: 15px;
+}
+.reqDrafts button {
+  width: 265px;
 }
 .ackDrafts h2 {
   display: inline-block;
   font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
   color: #00adb5;
-  margin-right: 77px;
+  margin-right: 86px;
   font-size: 15px;
 }
 .ackDrafts button {
-  width: 231px;
+  width: 265px;
 }
 .atDrafts h2 {
   display: inline-block;
   font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
   color: #00adb5;
-  margin-right: 40px;
+  margin-right: 56px;
   font-size: 15px;
 }
 .atDrafts button {
-  width: 233px;
+  width: 265px;
 }
 .pickDrafts h2 {
   display: inline-block;
   font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
   color: #00adb5;
-  margin-right: 40px;
+  margin-right: 57px;
   font-size: 15px;
 }
 .pickDrafts button {
-  width: 234px;
+  width: 265px;
 }
 .delDrafts h2 {
   display: inline-block;
   font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
   color: #00adb5;
-  margin-right: 23px;
+  margin-right: 43px;
   font-size: 15px;
 }
 .delDrafts button {
-  margin-left: 2px;
+  width: 265px;
 }
 .venDrafts1 h2 {
   display: inline-block;
   font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
   color: #00adb5;
-  margin-right: 20px;
+  margin-right: 40px;
   font-size: 15px;
 }
 .venDrafts1 button {
-  width: 233px;
-  margin-left: 2px;
+  width: 265px;
 }
 .venDrafts2 h2 {
   display: inline-block;
   font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
   color: #00adb5;
-  margin-right: 18px;
+  margin-right: 36px;
   font-size: 15px;
 }
 .venDrafts2 button {
-  width: 235px;
+  width: 265px;
 }
 .rejDrafts h2 {
   display: inline-block;
   font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
   color: #00adb5;
-  margin-right: 50px;
+  margin-right: 68px;
   font-size: 15px;
 }
 .rejDrafts button {
-  width: 235px;
+  width: 265px;
 }
