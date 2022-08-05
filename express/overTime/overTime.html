@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Over Time Drafts</title>
+    <script src="overTimeScript.js"></script>
+    <link rel="stylesheet" href="overTimeStyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lalezar&family=Montserrat+Alternates:wght@300;600&family=Vazirmatn:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="vmsDelay">
+      <h2>عدم تحویل سفارش قبل از دلیور ( مراحل انجام سفر بیش از 45 دقیقه)</h2>
+      <p>
+        سفارش به مدت
+        <input type="text" placeholder="زمان به دقیقه" id="overTime1" />
+        در وضعیت
+        <input type="text" placeholder="ACK, AT REST, ..." id="overTime11" />
+        / وندور اعلام کردند به پیک تحویل شده است.
+      </p>
+      <button onclick="overTime1()">COPY</button>
+      <p>
+        سفارش به مدت
+        <input type="text" placeholder="زمان به دقیقه" id="overTime2" />
+        در وضعیت
+        <input type="text" placeholder="ACK, AT REST, ..." id="overTime21" />
+        / وندور اعلام کردند سفارش در مجموعه است.
+      </p>
+      <button onclick="overTime2()">COPY</button>
+    </div>
+  </body>
+</html>

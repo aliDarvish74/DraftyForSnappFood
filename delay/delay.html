@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Delay Drafts</title>
+    <script src="delayScript.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lalezar&family=Montserrat+Alternates:wght@300;600&family=Vazirmatn:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="delayStyle.css" />
+  </head>
+  <body>
+    <div class="draftList">
+      <div class="reqDrafts">
+        <h2>REQUESTED:</h2>
+        <button onclick="rDelay1()">REQUESTED / مشتری بی پاسخ / تایم</button>
+        <button onclick="rDelay2()">
+          REQUESTED / مشتری خارج از دسترس / تایم
+        </button>
+        <button onclick="rDelay3()">REQUESTED / مشتری خاموش / تایم</button>
+        <button onclick="rDelay4()">REQUESTED / مشتری رد تماس / تایم</button>
+      </div>
+      <div class="ackDrafts">
+        <h2>ACK:</h2>
+        <button onclick="ackDelay1()">ACK / مشتری بی پاسخ / تایم</button>
+        <button onclick="ackDelay2()">ACK / مشتری خارج از دسترس / تایم</button>
+        <button onclick="ackDelay3()">ACK / مشتری خاموش / تایم</button>
+        <button onclick="ackDelay4()">ACK / مشتری رد تماس / تایم</button>
+      </div>
+      <div class="atDrafts">
+        <h2>AT REST:</h2>
+        <button onclick="atDelay1()">AT REST / مشتری بی پاسخ / تایم</button>
+        <button onclick="atDelay2()">
+          AT REST / مشتری خارج از دسترس / تایم
+        </button>
+        <button onclick="atDelay3()">AT REST / مشتری خاموش / تایم</button>
+        <button onclick="atDelay4()">AT REST / مشتری رد تماس / تایم</button>
+      </div>
+      <div class="pickDrafts">
+        <h2>PICKED:</h2>
+        <button onclick="pDelay1()">PICKED / مشتری بی پاسخ / تایم</button>
+        <button onclick="pDelay2()">PICKED / مشتری خارج از دسترس / تایم</button>
+        <button onclick="pDelay3()">PICKED / مشتری خاموش / تایم</button>
+        <button onclick="pDelay4()">PICKED / مشتری رد تماس / تایم</button>
+      </div>
+      <div class="delDrafts">
+        <h2>Delivered:</h2>
+        <button onclick="delDelay1()">DELIVERED / مشتری بی پاسخ / اتمام</button>
+        <button onclick="delDelay2()">
+          DELIVERED / مشتری خارج از دسترس / اتمام
+        </button>
+        <button onclick="delDelay3()">DELIVERED / مشتری خاموش / اتمام</button>
+        <button onclick="delDelay4()">DELIVERED / مشتری رد تماس / اتمام</button>
+      </div>
+      <div class="venDrafts1">
+        <h2>ارسال وندور 1:</h2>
+        <button onclick="venDelay1()">وندور ارسال/ مشتری بی پاسخ/ تایم</button>
+        <button onclick="venDelay2()">
+          وندور ارسال/ مشتری خارج از دسترس/ تایم
+        </button>
+        <button onclick="venDelay3()">وندور ارسال/ مشتری خاموش/ تایم</button>
+        <button onclick="venDelay4()">وندور ارسال/ مشتری رد تماس/ تایم</button>
+      </div>
+      <div class="venDrafts2">
+        <h2>ارسال وندور 2:</h2>
+        <button onclick="venDelay5()">وندور ارسال/ مشتری بی پاسخ/ اتمام</button>
+        <button onclick="venDelay6()">
+          وندور ارسال/ مشتری خارج از دسترس/ اتمام
+        </button>
+        <button onclick="venDelay7()">وندور ارسال/ مشتری خاموش/ اتمام</button>
+        <button onclick="venDelay8()">وندور ارسال/ مشتری رد تماس/ اتمام</button>
+      </div>
+      <div class="rejDrafts">
+        <h2>مرجوعی:</h2>
+        <button onclick="rejDelay1()">مرجوعی / مشتری بی پاسخ/ اتمام</button>
+        <button onclick="rejDelay2()">
+          مرجوعی / مشتری خارج از دسترس/ اتمام
+        </button>
+        <button onclick="rejDelay3()">مرجوعی / مشتری خاموش / اتمام</button>
+        <button onclick="rejDelay4()">مرجوعی / مشتری رد تماس/ اتمام</button>
+      </div>
+    </div>
+  </body>
+</html>

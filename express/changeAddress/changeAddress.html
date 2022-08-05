@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Change Address Drafts</title>
+    <script src="changeAddressScript.js"></script>
+    <link rel="stylesheet" href="changeAddressStyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lalezar&family=Montserrat+Alternates:wght@300;600&family=Vazirmatn:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <p class="title">تغییر آدرس مشتری ( تغییرات حتما روی بکند اعمال شود )</p>
+    <div class="drafts">
+      <p>تغییر آدرس / از بکند اصلاح شده</p>
+      <button onclick="changeAdd1()">COPY</button>
+      <p>تغییر آدرس / امکان اصلاح از بکند نیست</p>
+      <button onclick="changeAdd2()">COPY</button>
+      <p>اصلاح آدرس</p>
+      <button onclick="changeAdd3()">COPY</button>
+    </div>
+    <p class="inputp">
+      در صورت عدم اصلاح از بکند و یا اصلاحیه آدرس، آدرس به صورت کامل در کادر زیر
+      درج شود. در غیر اینصورت موردی درج نگردد. با تشکر
+    </p>
+    <input type="text" id="addIn" placeholder="آدرس جدید و کامل مشتری" />
+  </body>
+</html>

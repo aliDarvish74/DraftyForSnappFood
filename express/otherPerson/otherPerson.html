@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Deliver To Other Person Drafts</title>
+    <script src="otherPersonScript.js"></script>
+    <link rel="stylesheet" href="otherPersonStyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lalezar&family=Montserrat+Alternates:wght@300;600&family=Vazirmatn:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="vmsDelay">
+      <h2>درخواست تحویل سفارش به شخصی غیر از مشتری</h2>
+      <p>
+        لطفا سفارش مشتری در آدرس تحویل
+        <input
+          type="text"
+          placeholder="نام شخص دریافت کننده"
+          id="otherPerson1"
+        />
+        گردد. با تشکر
+      </p>
+      <button onclick="otherPerson()">COPY</button>
+    </div>
+    <p class="par">
+      در صورت دریافت شماره تماس گیرنده، آن را در کادر زیر وارد کنید.
+    </p>
+    <input
+      class="otherNumber"
+      type="text"
+      placeholder="شماره تلفن دریافت کننده"
+      id="otherPerson2"
+    />
+  </body>
+</html>

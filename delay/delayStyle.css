@@ -1,0 +1,108 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.draftList {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.draftList button {
+  font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
+  background: #eeeeee;
+  border: none;
+  color: #222831;
+  padding: 6px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.draftList button:hover {
+  background: #00adb5;
+  color: #eeeeee;
+  transition: 0.5s;
+}
+.reqDrafts {
+  width: 100%;
+  margin: 5px auto;
+  font-size: 10px;
+}
+.reqDrafts h2 {
+  display: inline-block;
+  font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
+  color: #00adb5;
+  margin-right: 20px;
+  font-size: 15px;
+}
+.ackDrafts h2 {
+  display: inline-block;
+  font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
+  color: #00adb5;
+  margin-right: 77px;
+  font-size: 15px;
+}
+.ackDrafts button {
+  width: 231px;
+}
+.atDrafts h2 {
+  display: inline-block;
+  font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
+  color: #00adb5;
+  margin-right: 40px;
+  font-size: 15px;
+}
+.atDrafts button {
+  width: 233px;
+}
+.pickDrafts h2 {
+  display: inline-block;
+  font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
+  color: #00adb5;
+  margin-right: 40px;
+  font-size: 15px;
+}
+.pickDrafts button {
+  width: 234px;
+}
+.delDrafts h2 {
+  display: inline-block;
+  font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
+  color: #00adb5;
+  margin-right: 23px;
+  font-size: 15px;
+}
+.delDrafts button {
+  margin-left: 2px;
+}
+.venDrafts1 h2 {
+  display: inline-block;
+  font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
+  color: #00adb5;
+  margin-right: 20px;
+  font-size: 15px;
+}
+.venDrafts1 button {
+  width: 233px;
+  margin-left: 2px;
+}
+.venDrafts2 h2 {
+  display: inline-block;
+  font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
+  color: #00adb5;
+  margin-right: 18px;
+  font-size: 15px;
+}
+.venDrafts2 button {
+  width: 235px;
+}
+.rejDrafts h2 {
+  display: inline-block;
+  font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
+  color: #00adb5;
+  margin-right: 50px;
+  font-size: 15px;
+}
+.rejDrafts button {
+  width: 235px;
+}

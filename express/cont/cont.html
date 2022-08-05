@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contrariety Drafts</title>
+    <script src="contScript.js"></script>
+    <link rel="stylesheet" href="contStyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lalezar&family=Montserrat+Alternates:wght@300;600&family=Vazirmatn:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <p class="title">
+      مغایرت آیتم ها (درخواست مشتری؟/ هزینه بر عهده کیست؟/ ارسال نشده؟/ جابجا
+      ارسال شده؟/ عدم کیفیت)
+    </p>
+    <div class="drafts">
+      <p>مشتری درخواست تعویض / با هزینه وندور</p>
+      <button onclick="cont1()">COPY</button>
+      <p>مشتری درخواست تعویض / وندور نمی پذیرند / دوربین موجود نیست</p>
+      <button onclick="cont2()">COPY</button>
+      <p>مشتری درخواست تعویض / وندور نمی پذیرند / تصویر ارسال شده</p>
+      <button onclick="cont3()">COPY</button>
+      <p>مشتری درخواست تعویض / وندور نمی پذیرند / عدم بررسی پیک</p>
+      <button onclick="cont4()">COPY</button>
+      <p>مشتری درخواست عودت مابه التفاوت / وندور نمی پذیرن / عدم بررسی پیک</p>
+      <button onclick="cont5()">COPY</button>
+      <p>مشتری درخواست عودت مابه التفاوت / وندور نمی پذیرن / تصویر ارسال شده</p>
+      <button onclick="cont6()">COPY</button>
+      <p>عدم کیفیت / تعویض با هزینه وندور</p>
+      <button onclick="cont7()">COPY</button>
+      <p>عدم کیفیت / تعویض با هزینه مشتری/ اعتبار شارژ می شود</p>
+      <button onclick="cont8()">COPY</button>
+      <p>عدم کیفیت / مرجوع با هزینه وندور / اصلاح فاکتور</p>
+      <button onclick="cont9()">COPY</button>
+      <p>
+        عدم کیفیت / مرجوع با هزینه مشتری / اعتبار شارژ می شود / اصلاح فاکتور
+      </p>
+      <button onclick="cont10()">COPY</button>
+    </div>
+    <p class="inputp">
+      لطفا آیتم های ارسال نشده را در کادر زیر درج و با (و) از یک دیگر جدا کنید.
+    </p>
+    <input type="text" id="contIn" placeholder="آیتم 1 و آیتم 2 و ..." />
+  </body>
+</html>

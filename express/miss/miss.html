@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Missed Items</title>
+    <script src="missScript.js"></script>
+    <link rel="stylesheet" href="missStyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lalezar&family=Montserrat+Alternates:wght@300;600&family=Vazirmatn:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <p class="title">
+      سفارش ناقص به مشتری رسیده (درخواست مشتری؟/ هزینه بر عهده کیست؟/ ارسال
+      نشده؟/ جابجا ارسال شده؟)
+    </p>
+    <div class="drafts">
+      <p>مشتری درخواست ارسال / با هزینه وندور</p>
+      <button onclick="miss1()">COPY</button>
+      <p>مشتری درخواست ارسال / وندور نمی پذیرن / دوربین موجود نیست</p>
+      <button onclick="miss2()">COPY</button>
+      <p>مشتری درخواست ارسال / وندور نمی پذیرن / تصویر ارسال شده</p>
+      <button onclick="miss3()">COPY</button>
+      <p>مشتری درخواست ارسال / وندور نمی پذیرن / عدم بررسی پیک</p>
+      <button onclick="miss4()">COPY</button>
+      <p>مشتری درخواست عودت وجه / وندور نمی پذیرن / عدم بررسی پیک</p>
+      <button onclick="miss5()">COPY</button>
+      <p>مشتری درخواست عودت وجه / وندور نمی پذیرن / تصویر ارسال شده</p>
+      <button onclick="miss6()">COPY</button>
+    </div>
+    <p class="inputp">
+      لطفا آیتم های ارسال نشده را در کادر زیر درج و با (و) از یک دیگر جدا کنید.
+    </p>
+    <input type="text" id="missIn" placeholder="آیتم 1 و آیتم 2 و ..." />
+  </body>
+</html>

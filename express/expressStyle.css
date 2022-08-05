@@ -1,0 +1,33 @@
+html {
+  direction: rtl;
+}
+body {
+  font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.exNav ul {
+  list-style: none;
+  display: block;
+}
+.exNav a {
+  text-decoration: none;
+  color: #222831;
+  font-size: 14px;
+  float: right;
+  padding: 5px;
+  margin: 0 6px 10px 5px;
+  border-radius: 5px;
+  background: #eeeeee;
+  transition: 0.5s;
+}
+.exNav a:hover {
+  background: #00adb5;
+  color: #eeeeee;
+  transition: 0.5s;
+}
+iframe {
+  position: relative;
+  left: -26px;
+}

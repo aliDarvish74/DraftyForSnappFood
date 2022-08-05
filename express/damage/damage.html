@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Damaged Order Drafts</title>
+    <script src="damageScript.js"></script>
+    <link rel="stylesheet" href="damageStyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lalezar&family=Montserrat+Alternates:wght@300;600&family=Vazirmatn:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <p class="title">
+      سفارش ناقص به مشتری رسیده (درخواست مشتری؟/ هزینه بر عهده کیست؟/ ارسال
+      نشده؟/ جابجا ارسال شده؟)
+    </p>
+    <div class="drafts">
+      <p>خرابی سفارش / مشتری درخواست تعویض / تصویر در گروه</p>
+      <button onclick="damage1()">COPY</button>
+      <p>خرابی سفارش / مشتری درخواست عودت وجه / تصویر در گروه</p>
+      <button onclick="damage2()">COPY</button>
+      <p>خرابی سفارش / مشتری درخواست تعویض / تحویل نگرفتند / بدون تصویر</p>
+      <button onclick="damage3()">COPY</button>
+      <p>خرابی سفارش / مشتری درخواست عودت وجه / تحویل نگرفتند / بدون تصویر</p>
+      <button onclick="damage4()">COPY</button>
+         </div>
+    <p class="inputp">
+      لطفا آیتم های آسیب دیده را در کادر زیر درج و با (و) از یک دیگر جدا کنید.
+    </p>
+    <input type="text" id="damage" placeholder="آیتم 1 و آیتم 2 و ..." />
+    </div>
+    </body>
+</html>

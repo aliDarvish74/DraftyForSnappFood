@@ -1,0 +1,62 @@
+body {
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-weight: 600;
+  margin: 5px 0;
+  color: #00adb5;
+}
+
+.drafts {
+  text-align: center;
+  margin-top: 0;
+}
+.drafts p {
+  margin: 5px 35px;
+  display: inline-block;
+  position: relative;
+  background: #eeeeee;
+  width: 39%;
+  border-radius: 5px;
+}
+.drafts button {
+  position: relative;
+  border: none;
+  background: #00adb5;
+  color: #eeeeee;
+  border-radius: 5px;
+  height: 25px;
+  left: 35px;
+  top: 1px;
+  transition: 0.3s;
+}
+.drafts button:hover {
+  background: rgb(0, 120, 130);
+  cursor: pointer;
+  transition: 0.3s;
+}
+input {
+  font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  width: 75%;
+  height: 40px;
+  position: relative;
+  left: -150px;
+  top: 0px;
+  border: 1px dashed #00adb5;
+  background: rgba(0, 173, 181, 0.1);
+}
+.inputp {
+  color: #eeeeee;
+  margin: 20px 0 0 0;
+  position: relative;
+  text-align: center;
+  font-size: 15px;
+  top: -5px;
+}

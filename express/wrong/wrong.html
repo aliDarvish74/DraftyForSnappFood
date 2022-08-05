@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Wrong Items Drafts</title>
+    <script src="wrongScript.js"></script>
+    <link rel="stylesheet" href="wrongStyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lalezar&family=Montserrat+Alternates:wght@300;600&family=Vazirmatn:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <p class="title">
+      جابجایی ارسال سفارش (آیتم استفاده شده؟ / هزینه با کیست؟ / درخواست مشتری؟)
+    </p>
+    <div class="drafts">
+      <p>مشتری درخواست تعویض / اشتباه وندور / هزینه با وندور</p>
+      <button onclick="wrong1()">COPY</button>
+      <p>مشتری درخواست تعویض / وندور نمی پذیرند / هر دو تحویل یک پیک شده</p>
+      <button onclick="wrong2()">COPY</button>
+      <p>
+        مشتری درخواست تعویض / وندور نمی پذیرند / پیک اشتباه برداشتن / بدون
+        دوربین
+      </p>
+      <button onclick="wrong3()">COPY</button>
+      <p>
+        مشتری درخواست تعویض / وندور نمی پذیرند / پیک اشتباه برداشتن / تصویر
+        ارسال شده
+      </p>
+      <button onclick="wrong4()">COPY</button>
+      <p>
+        مشتری استفاده کردند / وندور نمی پذیرند / پیک اشتباه برداشتند / بدون
+        دوربین
+      </p>
+      <button onclick="wrong5()">COPY</button>
+      <p>
+        مشتری استفاده کردند / وندور نمی پذیرند / پیک اشتباه برداشتند/ تصویر
+        ارسال شده
+      </p>
+      <button onclick="wrong6()">COPY</button>
+      <p>مشتری درخواست مرجوعی / اشتباه وندور / هزینه با وندور</p>
+      <button onclick="wrong7()">COPY</button>
+      <p>
+        مشتری درخواست مرجوعی / وندور نمی پذیرند / پیک اشتباه برداشتند/ بدون
+        دوربین
+      </p>
+      <button onclick="wrong8()">COPY</button>
+      <p>
+        مشتری درخواست مرجوعی / وندور نمی پذیرند / پیک اشتباه برداشتند/ تصویر
+        ارسال شده
+      </p>
+      <button onclick="wrong9()">COPY</button>
+    </div>
+    <p class="inputp">
+      نام مشتری درج شده بر روی فاکتور دریافتی را در کادر زیر درج کنید و در صورت
+      مشخص نبودن نام مشتری کادر را خالی بگذارید.
+    </p>
+    <input type="text" id="wrongIn" placeholder="نام مشتری" />
+  </body>
+</html>

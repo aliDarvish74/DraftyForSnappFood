@@ -1,0 +1,12 @@
+body {
+  margin-top: 50px;
+  font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
+  direction: rtl;
+  text-align: center;
+}
+h1 {
+  color: #00adb5;
+}
+p {
+  color: #eeeeee;
+}
