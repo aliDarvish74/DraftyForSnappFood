@@ -1,0 +1,22 @@
+h1 {
+  font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
+  color: rgb(230, 0, 150);
+  direction: rtl;
+  text-align: center;
+  font-weight: 600;
+}
+p {
+  width: 50%;
+  margin: 0 auto;
+  font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
+  color: #eeeeee;
+  font-size: 17px;
+  direction: rtl;
+  text-align: justify;
+}
+.thanks {
+  color: rgb(230, 0, 150);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
