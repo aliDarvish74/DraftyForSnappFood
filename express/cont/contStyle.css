@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-weight: 600;
   margin: 5px 0;
-  color: #00adb5;
+  color: rgb(230, 0, 150);
 }
 
 .drafts {
@@ -27,7 +27,7 @@ body {
 .drafts button {
   position: relative;
   border: none;
-  background: #00adb5;
+  background: rgb(230, 0, 150);
   color: #eeeeee;
   border-radius: 5px;
   height: 25px;
@@ -36,7 +36,7 @@ body {
   transition: 0.3s;
 }
 .drafts button:hover {
-  background: rgb(0, 120, 130);
+  background: rgb(180, 0, 80);
   cursor: pointer;
   transition: 0.3s;
 }
@@ -49,8 +49,8 @@ input {
   position: relative;
   left: -150px;
   top: 0px;
-  border: 1px dashed #00adb5;
-  background: rgba(0, 173, 181, 0.1);
+  border: 1px dashed rgb(230, 0, 150);
+  background: rgba(230, 0, 150, 0.1);
 }
 .inputp {
   color: #eeeeee;
