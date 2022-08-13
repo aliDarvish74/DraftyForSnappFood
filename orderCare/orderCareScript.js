@@ -36,3 +36,12 @@ function order3() {
   document.getElementById("order3").value = "";
   document.getElementById("order31").value = "";
 }
+
+function order4() {
+  let in1 = document.getElementById("order4");
+  let out =
+    "همکار محترم " + in1.value + " لطفا مجدد با مشتری تماس بگیرید. با تشکر";
+  navigator.clipboard.writeText(out);
+  alert("پیش نویس شما کپی شد!");
+  document.getElementById("order4").value = "";
+}
