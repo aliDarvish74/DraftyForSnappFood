@@ -21,7 +21,7 @@ body {
   margin-right: 10px;
 }
 .draftList button:hover {
-  background: #00adb5;
+  background: #e60096;
   color: #eeeeee;
   transition: 0.5s;
 }
@@ -32,7 +32,7 @@ body {
 .reqDrafts h2 {
   display: inline-block;
   font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
-  color: #00adb5;
+  color: #eeeeee;
   margin-right: 25px;
   font-size: 15px;
 }
@@ -42,7 +42,7 @@ body {
 .ackDrafts h2 {
   display: inline-block;
   font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
-  color: #00adb5;
+  color: #eeeeee;
   margin-right: 86px;
   font-size: 15px;
 }
@@ -52,7 +52,7 @@ body {
 .atDrafts h2 {
   display: inline-block;
   font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
-  color: #00adb5;
+  color: #eeeeee;
   margin-right: 56px;
   font-size: 15px;
 }
@@ -62,7 +62,7 @@ body {
 .pickDrafts h2 {
   display: inline-block;
   font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
-  color: #00adb5;
+  color: #eeeeee;
   margin-right: 57px;
   font-size: 15px;
 }
@@ -72,7 +72,7 @@ body {
 .delDrafts h2 {
   display: inline-block;
   font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
-  color: #00adb5;
+  color: #eeeeee;
   margin-right: 43px;
   font-size: 15px;
 }
@@ -82,7 +82,7 @@ body {
 .venDrafts1 h2 {
   display: inline-block;
   font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
-  color: #00adb5;
+  color: #eeeeee;
   margin-right: 40px;
   font-size: 15px;
 }
@@ -92,7 +92,7 @@ body {
 .venDrafts2 h2 {
   display: inline-block;
   font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
-  color: #00adb5;
+  color: #eeeeee;
   margin-right: 36px;
   font-size: 15px;
 }
@@ -102,7 +102,7 @@ body {
 .rejDrafts h2 {
   display: inline-block;
   font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
-  color: #00adb5;
+  color: #eeeeee;
   margin-right: 68px;
   font-size: 15px;
 }
