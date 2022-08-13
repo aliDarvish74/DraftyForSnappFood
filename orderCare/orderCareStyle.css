@@ -10,10 +10,10 @@ p {
 }
 .vmsDelay h2 {
   font-size: 20px;
-  color: #00adb5;
+  color: rgb(230, 0, 150);
 }
 .vmsDelay button {
-  background: #00adb5;
+  background: rgb(230, 0, 150);
   border: none;
   color: #eeeeee;
   height: 36px;
@@ -24,7 +24,7 @@ p {
   transition: 0.5s;
 }
 .vmsDelay button:hover {
-  background: rgb(0, 120, 130);
+  background: rgb(180, 0, 80);
   cursor: pointer;
   transition: 0.5s;
 }
@@ -40,8 +40,8 @@ p {
 }
 .vmsDelay input {
   font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
-  border: 1px dashed #00adb5;
-  background: rgba(0, 173, 181, 0.1);
+  border: 1px dashed rgb(230, 0, 150);
+  background: rgba(230, 0, 150, 0.1);
   color: #222831;
   font-size: 13px;
   width: 17%;
