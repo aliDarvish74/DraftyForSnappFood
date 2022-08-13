@@ -1,7 +1,256 @@
 body {
+  width: 80%;
   font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
-  text-align: center;
   direction: rtl;
-  margin-top: 5%;
-  color: #00adb5;
+  margin: 3% auto;
+  padding: 0;
+}
+div {
+  display: inline-block;
+  padding: 0;
+}
+div p {
+  margin: 5px;
+  text-align: center;
+}
+
+/**********************************
+      ITEM CONTRARIETY
+*/
+.itemCont {
+  background: rgba(230, 0, 150, 0.1);
+  border: 1px dashed #eeeeee;
+  border-radius: 5px;
+  margin: 10px;
+  width: 62.25%;
+  color: #eeeeee;
+}
+.itemCont button {
+  font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
+  background: #eeeeee;
+  border: none;
+  border-radius: 5px;
+  color: #222831;
+  margin: 0 20px 10px 20px;
+  position: relative;
+  left: -170px;
+  padding: 5px;
+  transition: 0.5s;
+}
+.itemCont button:hover {
+  cursor: pointer;
+  background: rgb(230, 0, 150);
+  color: #eeeeee;
+  transition: 0.5s;
+}
+
+/****************************************
+      VENDOR DELAY
+*/
+.venDelay {
+  background: rgba(230, 0, 150, 0.1);
+  border: 1px dashed #eeeeee;
+  border-radius: 5px;
+  margin: 10px;
+  width: 30%;
+  color: #eeeeee;
+}
+.venDelay button {
+  font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
+  background: #eeeeee;
+  border: none;
+  border-radius: 5px;
+  color: #222831;
+  margin: 0 20px 10px 20px;
+  position: relative;
+  left: -73px;
+  padding: 5px;
+  transition: 0.5s;
+}
+.venDelay button:hover {
+  cursor: pointer;
+  background: rgb(230, 0, 150);
+  color: #eeeeee;
+  transition: 0.5s;
+}
+
+/****************************************
+      ORDER HYGEIENE
+*/
+.hygiene {
+  background: rgba(230, 0, 150, 0.1);
+  border: 1px dashed #eeeeee;
+  border-radius: 5px;
+  margin: 10px;
+  width: 30%;
+  color: #eeeeee;
+}
+
+.hygiene button {
+  font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
+  background: #eeeeee;
+  border: none;
+  border-radius: 5px;
+  color: #222831;
+  margin: 0 20px 10px 20px;
+  position: relative;
+  left: -74px;
+  padding: 5px;
+  transition: 0.5s;
+}
+.hygiene button:hover {
+  cursor: pointer;
+  background: rgb(230, 0, 150);
+  color: #eeeeee;
+  transition: 0.5s;
+}
+
+/*********************************************
+      BAD PACKAGING
+*/
+.pack {
+  background: rgba(230, 0, 150, 0.1);
+  border: 1px dashed #eeeeee;
+  border-radius: 5px;
+  margin: 10px;
+  width: 30%;
+  color: #eeeeee;
+}
+.pack button {
+  font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
+  background: #eeeeee;
+  border: none;
+  border-radius: 5px;
+  color: #222831;
+  margin: 0 20px 10px 20px;
+  position: relative;
+  left: -72px;
+  padding: 5px;
+  transition: 0.5s;
+}
+.pack button:hover {
+  cursor: pointer;
+  background: rgb(230, 0, 150);
+  color: #eeeeee;
+  transition: 0.5s;
+}
+
+/*********************************************
+      DESCRIPTION
+*/
+.description {
+  background: rgba(230, 0, 150, 0.1);
+  border: 1px dashed #eeeeee;
+  border-radius: 5px;
+  margin: 10px;
+  width: 30%;
+  color: #eeeeee;
+}
+.description button {
+  font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
+  background: #eeeeee;
+  border: none;
+  border-radius: 5px;
+  color: #222831;
+  margin: 0 20px 10px 20px;
+  position: relative;
+  left: -42px;
+  padding: 5px;
+  transition: 0.5s;
+}
+.description button:hover {
+  cursor: pointer;
+  background: rgb(230, 0, 150);
+  color: #eeeeee;
+  transition: 0.5s;
+}
+
+/*********************************************
+      NOT DELIVERED
+*/
+.notDel {
+  background: rgba(230, 0, 150, 0.1);
+  border: 1px dashed #eeeeee;
+  border-radius: 5px;
+  margin: 10px;
+  width: 30%;
+  color: #eeeeee;
+}
+.notDel button {
+  font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
+  background: #eeeeee;
+  border: none;
+  border-radius: 5px;
+  color: #222831;
+  margin: 0 20px 10px 20px;
+  position: relative;
+  left: -48px;
+  padding: 5px;
+  transition: 0.5s;
+}
+.notDel button:hover {
+  cursor: pointer;
+  background: rgb(230, 0, 150);
+  color: #eeeeee;
+  transition: 0.5s;
+}
+
+/*********************************************
+      BAD DELIVERY
+*/
+.badDel {
+  background: rgba(230, 0, 150, 0.1);
+  border: 1px dashed #eeeeee;
+  border-radius: 5px;
+  margin: 10px;
+  width: 30%;
+  color: #eeeeee;
+}
+.badDel button {
+  font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
+  background: #eeeeee;
+  border: none;
+  border-radius: 5px;
+  color: #222831;
+  margin: 0 20px 10px 20px;
+  position: relative;
+  left: -41px;
+  padding: 5px;
+  transition: 0.5s;
+}
+.badDel button:hover {
+  cursor: pointer;
+  background: rgb(230, 0, 150);
+  color: #eeeeee;
+  transition: 0.5s;
+}
+
+/*********************************************
+      BAD DELIVERY
+*/
+.imgCont {
+  background: rgba(230, 0, 150, 0.1);
+  border: 1px dashed #eeeeee;
+  border-radius: 5px;
+  margin: 10px;
+  width: 30%;
+  color: #eeeeee;
+}
+.imgCont button {
+  font-family: "Montserrat Alternates", "Vazirmatn", sans-serif;
+  background: #eeeeee;
+  border: none;
+  border-radius: 5px;
+  color: #222831;
+  margin: 0 20px 10px 20px;
+  position: relative;
+  left: -55px;
+  padding: 5px;
+  transition: 0.5s;
+}
+.imgCont button:hover {
+  cursor: pointer;
+  background: rgb(230, 0, 150);
+  color: #eeeeee;
+  transition: 0.5s;
 }
