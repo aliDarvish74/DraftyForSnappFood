@@ -23,7 +23,7 @@ body {
   transition: 0.5s;
 }
 .exNav a:hover {
-  background: #00adb5;
+  background: rgb(230, 0, 150);
   color: #eeeeee;
   transition: 0.5s;
 }
