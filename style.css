@@ -17,18 +17,20 @@ body {
   top: 13px;
 }
 .enTitle {
+  position: relative;
   display: inline;
   float: left;
   font-family: "Montserrat Alternates", sans-serif;
-  color: #00adb5;
-  font-weight: 600;
+  color: rgb(230, 0, 150);
+  font-weight: 900;
+  font-style: italic;
   margin: 10px auto;
   padding: 0;
 }
 .faTitle {
   display: inline;
   font-family: "Lalezar", cursive;
-  color: #00adb5;
+  color: rgb(230, 0, 150);
   font-weight: lighter;
   float: right;
   margin: 10px auto;
@@ -60,12 +62,12 @@ body {
   padding: 8px 10px;
   text-decoration: none;
   margin: 0 10px;
-  border-bottom: 2px solid #00adb5;
+  border-bottom: 2px solid #e60096;
   transition: 0.5s;
 }
 .mainNav a:hover {
-  background: rgba(0, 173, 181, 0.5);
-  border-bottom: 2px solid #00adb5;
+  background: rgba(230, 0, 150, 0.5);
+  border-bottom: 2px solidrgb(230, 0, 150);
   transition: 0.5s;
 }
 
@@ -82,13 +84,21 @@ iframe {
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 600;
   color: #eeeeee;
-  border-bottom: 2px solid #00adb5;
+  border-bottom: 2px solid rgb(230, 0, 150);
   background: rgba(57, 62, 70, 0.5);
   padding: 0.7%;
   transition: 0.5s;
 }
 .clearScreen a:hover {
-  background: rgba(0, 173, 181, 0.5);
-  border-bottom: 2px solid #00adb5;
+  background: rgba(230, 0, 150, 0.5);
+  border-bottom: 2px solid rgb(230, 0, 150);
   transition: 0.5s;
+}
+img {
+  position: relative;
+  top: 6px;
+  left: 10px;
+  margin: 0;
+  width: 35px;
+  height: auto;
 }
